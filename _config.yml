@@ -297,7 +297,7 @@ defaults:
 
   #_pages
   - sope:
-      path: "
+      path: ""
       type: pages
       values:
       layout: single
