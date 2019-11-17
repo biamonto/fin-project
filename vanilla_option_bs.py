@@ -17,10 +17,11 @@ def black_Scholes(type, St, K, sigma, delta_T, r):
         price = ss.norm.cdf(d1) * St - ss.norm.cdf(d2) * K * np.exp(-r * delta_T)
     elif type == "Put":
         price = ss.norm.cdf(-d2) * K * np.exp(-r * delta_T) - ss.norm.cdf(-d1) * St
-    
+
+
     return price
 
-'''
+
 type = "Call"
 St = 100
 K = 99
@@ -30,4 +31,3 @@ r = 0.01
 
 price = black_Scholes(type, St, K, sigma, delta_T, r)
 print(price)
-'''
