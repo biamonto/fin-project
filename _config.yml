@@ -295,10 +295,10 @@ defaults:
       share: true
       related: true
 
-  #_pages
+  # _pages
   - sope:
       path: ""
       type: pages
-      values:
+    values:
       layout: single
       author_profile: true
