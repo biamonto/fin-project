@@ -1,13 +1,13 @@
 # main links
 main:
-  - title: "About"
-    url: /about/
   - title: "Analytical valuation"
     url: /analytical/
   - title: "Simulation based valuation"
     url: /simulation/    
   - title: "Machine Learning"
     url: /machinelearning/
+  - title: "About"
+    url: /about/
 
 
   # - title: "About"
