@@ -2,6 +2,14 @@
 main:
   - title: "About"
     url: /about/
+  - title: "Analytical valuation"
+    url: /analytical/
+  - title: "Simulation based valuation"
+    url: /simulation/    
+  - title: "Machine Learning"
+    url: /machinelearning/
+
+
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
